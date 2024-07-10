@@ -11,6 +11,24 @@ This is a medium-frequency trading bot for stocks in the energy sector. It uses 
 - **Parallel Processing**: Executes multiple trade orders in parallel using `asyncio.gather()` to enhance performance.
 - **Medium/High-Frequency Capabilities**: Reduced the interval between data collection and trade execution to 1 second for higher frequency trading.
 
+
+## Tools and Technologies Used
+
+- Reddit API
+- Twitter API
+- VADER Sentiment Analysis
+- HuggingFace Transformers
+- NLTK
+- Alpaca API
+- scikit-learn
+- SQLite
+- Yahoo Finance API
+- aiohttp
+- asyncio
+- requests
+- pandas
+- nlohmann/json
+  
 ### How to run the trading bot?
 ```sh
 vcpkg install curl
