@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a medium-frequency trading bot for stocks in the energy sector. It uses sentiment analysis from Twitter and Reddit to inform trading decisions. The bot collects real-time data, analyzes sentiment using VADER, and makes trade decisions based on the sentiment score. It also includes a machine learning model to backtest and refine trading strategies using historical financial data.
+This is a medium-frequency trading bot for stocks in the energy sector. It uses sentiment analysis from Twitter and Reddit to inform trading decisions. The bot collects real-time data, analyzes sentiment using VADER, and executes trades using Alpaca based on the sentiment score. As the bot runs, it feeds data into a LSTM model to backtest and refine my trading algorthms.
 
 ## Features
 
